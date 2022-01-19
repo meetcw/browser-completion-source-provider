@@ -1,0 +1,32 @@
+<!-- https://codepen.io/jonnitto/pen/OVmvPB -->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <form class="form-card">
+        <fieldset class="form-fieldset">
+            <div class="form-element form-input">
+                <input id="serverPort" class="form-element-field" placeholder="18998" type="number" required />
+                <div class="form-element-bar"></div>
+                <label class="form-element-label">Server Port</label>
+                <small class="form-element-hint">Neovim plugin server port</small>
+            </div>
+            <div class="form-element form-input">
+                <input id="matchRule" class="form-element-field" placeholder="" type="text" required />
+                <div class="form-element-bar"></div>
+                <label class="form-element-label">Match Rule</label>
+                <small class="form-element-hint">regular expression</small>
+            </div>
+        </fieldset>
+    </form>
+    <script src="options.js" type="module"></script>
+
+</body>
+
+</html>
